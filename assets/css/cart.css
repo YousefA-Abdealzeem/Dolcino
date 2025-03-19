@@ -107,6 +107,9 @@ main{
 
 /* media */
 @media (max-width: 575px){
+    .offcanvas {
+        width: 80% !important;
+    }
     .logo-img{
         width: 50px;
         padding-left: 20px;
@@ -120,12 +123,13 @@ main{
         display: flex;
         align-items: center;
         justify-content: center;
+        background-attachment: fixed !important;
     }
     .cart{
         width: 100%;
         color: white;
         padding-left: 15px;
-        font-size: 30px !important;
+        font-size: 20px !important;
         height: 22vh;
     }
     .ul{
@@ -133,6 +137,7 @@ main{
     }
     .total{
         display:  flex !important;
+        font-size: 20px !important;
         padding-top: 10px;
         border-bottom: 0.5px solid;
         width: 100%;
@@ -144,15 +149,18 @@ main{
     }
     .cart-total{
         width: 100%;
-        font-size: 20px;
+        font-size: 15px;
         display: flex;
         justify-content: center;
     }
     .checkout ,.back-more{
         margin: auto;
+        width: 100%;
+        font-size: 10px !important;
     }
     .back-more{
         width: 320px;
+        
     }
 
 }

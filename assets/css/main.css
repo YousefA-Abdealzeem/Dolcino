@@ -217,6 +217,9 @@ span.mkdf-cart-icon svg {
 
 /* media */
 @media (max-width: 768px) {
+    .offcanvas{
+        width: 80% !important;
+    }
     .sticky-top{
         height: 70% !important;
     }
@@ -262,6 +265,22 @@ span.mkdf-cart-icon svg {
         width: 200px !important;
     }
 
+    .history-section {
+        position: relative;
+    }
+    
+    .history-section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-image: url(../images/pexels-karolina-grabowska-5468025.jpg);
+        background-attachment: fixed !important;
+        filter: brightness(35%);
+        z-index: -1;
+    }
+
     .sec3 {
         position: relative;
         height: 50vh;
@@ -273,7 +292,7 @@ span.mkdf-cart-icon svg {
         background-size: cover;
         background-position: center;
         height: 30vh;
-        background-attachment: fixed;
+        background-attachment: fixed !important;
         filter: brightness(40%);
     }
     .center-div img{
