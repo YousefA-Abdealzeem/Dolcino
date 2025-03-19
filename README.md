@@ -4,6 +4,7 @@
 ✅ HTML5<br>
 ✅ CSS3<br>
 ✅ Bootstrap<br>
+✅ Java Script<br>
 <h2>📦 Installation & Setup</h2>
 https://github.com/YousefA-Abdealzeem/Dolcino.git<br>
 https://yousefa-abdealzeem.github.io/Dolcino/<br>
