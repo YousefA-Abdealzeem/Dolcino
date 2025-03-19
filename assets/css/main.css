@@ -1,0 +1,293 @@
+/* Header container */
+
+
+
+.carousel-item{
+    height: 70vh;
+    
+}
+
+.container-fluied .cake{
+    font-size: 80px;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+
+.container-fluied .and{
+    font-size: 150px;
+    color: #C19D55;
+    font-family: "Brush Script MT", cursive;
+}
+
+/* top nav */
+header .top-nav{
+    background-color: #C19D55;
+    font-family: "Meow Script", cursive;
+    letter-spacing: 2px;
+}
+
+header .top-nav i{
+    font-size: 15px;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+header .top-nav i:hover{
+    color: black;
+}
+
+header .for-details a,i{
+    color: white;
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+header .for-details a:hover{
+    color: black;
+}
+
+/* bottom nav */
+header .logo-img{
+    width: 40px;
+}
+
+.bottom-nav{
+    height: 120px;
+}
+
+header .bottom-nav ul{
+    font-family: "Courier New", Courier, monospace;
+    list-style: none;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+header .bottom-nav ul li:hover{
+    border-bottom: #C19D55 solid 1px;
+    color: #C19D55;
+}
+
+a{
+    font-size: 12px;
+    color: #c19d56;
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
+span.mkdf-cart-icon svg {
+    cursor: pointer !important;
+}
+.offcanvas-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.offcanvas-header img {
+    width: 100px; 
+}
+.mkdf-cart-icon {
+    margin-top: 30px;
+}
+
+.title-page{
+    height: 65vh !important;
+}
+
+
+
+/*history-section  */
+.container-fluid {
+    max-width: 100%;
+}
+
+.title-histo {
+    color: #c89c60;
+    font-style: italic;
+    font-weight: 500;
+}
+.history-section {
+    position: relative;
+    min-height: 70vh;
+}
+
+.history-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/pexels-karolina-grabowska-5468025.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: brightness(35%);
+    z-index: -1;
+}
+
+
+/* Sweets section */
+.sweets-section{
+    margin-top: 150px;
+}
+.story-subtitle{
+    font-family: "Meow Script", cursive;
+    font-size: 35px !important;
+    color: #C19D55;
+}
+.text-gold{
+    color: #fd6d0d;
+}
+
+
+.story-divider{
+    color: #ff6600;
+}
+.story-text{
+    font-family: "Meow Script", cursive;
+    font-size: 35px;
+}
+.story-title{
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+
+.sweets-card{
+    align-items: center;
+    text-align: center;
+}
+
+.add-to-cart{
+    background-color: #C19D55;
+    border-radius: 30px ;
+    height: 40px;
+    width: 120px;
+    font-family:'Times New Roman', Times, serif;
+    transition: all ease 0.5s;
+}
+.add-to-cart:hover{
+    background-color: rgba(0, 0, 0, 0.671);
+}
+.card-img-top{
+    transition: all ease 0.5s;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.sec3 {
+    position: relative;
+    height: 50vh;
+}
+
+.sec3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/pexels-amar-13119652.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: brightness(40%);
+    z-index: -1;
+}
+
+.sec3-img{
+    width: 150px !important;
+}
+
+.center-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+.center-div img{
+    width: 20%;
+}
+.tit{
+    font-family: "Meow Script", cursive;
+}
+
+/* media */
+@media (max-width: 768px) {
+    .sticky-top{
+        height: 70% !important;
+    }
+    .logo-img{
+        width: 50px !important;
+        padding-left: 20px;
+    }
+    .carousel-item{
+        height: auto;
+    }
+    .history-section{
+        min-height: 50vh;
+    }
+
+    .title-page{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+    }
+    .story-title {
+        font-size: 30px;
+    }
+    .story-text {
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    .story-divider {
+        width: 100%;
+    }
+    .cake{
+        font-size: 60px !important;
+    }
+    .list-unstyled ,.text-uppercase{
+        align-items: center;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .card-img-top{
+        width: 250px !important;
+    }
+    .logo-serv{
+        width: 200px !important;
+    }
+
+    .sec3 {
+        position: relative;
+        height: 50vh;
+    }
+
+    .sec3::before{
+        content: "";
+        background-image: url(../images/pexels-amar-13119652.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 30vh;
+        background-attachment: fixed;
+        filter: brightness(40%);
+    }
+    .center-div img{
+        margin-bottom: 150px !important;
+    }
+    .sec3-img{
+        width: 60px !important;
+    }
+    
+}
+@media (max-width: 1021px){
+    .top-nav{
+        display: none;
+    }
+}
+
+

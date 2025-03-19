@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Animation CSS -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Meow+Script&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- Logo of website -->
+    <link rel="shortcut icon" type="image" href="./assets/images/cropped-Favikon-32x32.png">
+    <!-- Tltle Page -->
+    <title>Dolcino</title>
+    
+</head>
+<body>
+    <header class="container-fluied">
+        <!-- Start Top Navbar -->
+        <nav class="top-nav p-2">
+            <div class="d-flex justify-content-between align-items-center text-white">
+                <p class="m-0">Welcome to Dolcino Chocolaterie.</p>
+                <div class="for-details d-flex align-items-center gap-3">
+                    <span>Call Us :</span>
+                    <a href="tel:01050202407" class="pe-3">+88(0) 101 0000 000</a>
+                    <span>English</span>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+        </nav>
+        <!-- End Top Navbar -->
+    
+        <!-- Start Bottom Navbar -->
+        <nav class="navbar bottom-nav bg-body-tertiary sticky-top">
+            <div class="container d-flex justify-content-between align-items-center">
+                <img src="./assets/images/logo-img-mobile-.png" alt="logo" class="logo-img">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" id="offcanvasNavbar">
+                    <div class="offcanvas-header d-flex flex-column align-items-center">
+                        <img src="./assets/images/cropped-Favikon-192x192.png" alt="">
+                        <img src="./assets/images/write logo.png" alt="">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body d-flex flex-column align-items-center text-center">
+                        <ul class="navbar-nav w-100 text-center gap-2">
+                            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#History">History</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#Oriental">Oriental sweets</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#Services">Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#Truffle">truffle is art</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#Contact">Contact Us</a></li>
+                        </ul>
+                        <a href="cart.html" class="mkdf-cart-icon d-flex flex-column align-items-center">
+                            <svg width="17.969px" height="25.47px" viewBox="23.015 16.35 17.969 25.47">
+                                <path fill="#C19D56" d="M36.356,22.907v-2.199c0-2.403-1.954-4.357-4.357-4.357c-2.402,0-4.357,1.955-4.357,4.357v2.199h-4.627V41.82h17.969V22.907H36.356z M28.643,20.708c0-1.851,1.506-3.357,3.357-3.357s3.357,1.506,3.357,3.357v2.199h-6.714V20.708zM39.984,40.82H24.015V23.907h3.627v1.813h1v-1.813h6.714v1.813h1v-1.813h3.628V40.82z"></path>
+                            </svg>
+                            <span class="mkdf-cart-number">0</span>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End Bottom Navbar -->
+    
+        <div id="carouselExample" class="carousel slide animate__animated animate__fadeInLeft" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/images/pexels-cmrcn-30222481.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/pexels-arina-krasnikova-6654119.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/images/pexels-ekaterina-bolovtsova-5702931.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+    </header>
+    
+    <!-- End Header -->
+    <!-- Stert Main -->
+    <!-- start sec1 -->
+
+        <section class="history-section pt-5" id="History">
+            <div class="container-fluid">
+                <div class="row justify-content-center ">
+                    <div class="col-12 col-md-8 col-lg-6 text-center">
+                        <span class="story-subtitle d-block">Family Tradition</span>
+                        <h1 class="story-title text-white">OUR STORY</h1>
+                        <hr class="story-divider mx-auto">
+                        <p class="story-text text-white">
+                            Lorem ipsum dolor sit amet, ea has tollit nominavi, ei ius choro affert graeco. Vim nu 
+                            epicuri definiebas et, eam in facer errem nominavi. Per iuvaret ornatus gloriatur ne, ne sea
+                            principes assentior. Facer intellegat voluptaria vis no, te pri natum ludus inst.
+                        </p>
+                        <img src="./assets/images/p1-img-5.png" alt="Signature" class="story-signature img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- end sec1 -->
+    <!-- End Main -->
+    
+    <!-- Sec2 -->
+    <section class="sweets-section mb-5 animate__animated" id="Oriental">
+        <div class="text-center">
+            <span class="story-subtitle">Family Tradition</span>
+            <h1 class="story-title">Oriental sweets</h1>
+            <hr class="story-divider">
+        </div>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-4">
+                <!-- Item 1 -->
+                <div class="col">
+                    <div class="card sweets-card border-0">
+                        <img src="./assets/images/shop-img-31-800x650.jpg" class="card-img-top" alt="Fruit Cannoli">
+                        <div class="card-body">
+                            <h5 class="sweets-card-title">Fruit Cannoli</h5>
+                            <p class="sweets-card-text">Chocobar, Cupcakes, Truffles</p>
+                            <p class="sweets-price">$6</p>
+                            <button class="add-to-cart text-white border-0" 
+                                data-id="1" 
+                                data-name="Fruit Cannoli" 
+                                data-price="6" 
+                                data-image="./assets/images/shop-img-31-800x650.jpg">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Item 2 -->
+                <div class="col">
+                    <div class="card sweets-card border-0">
+                        <img src="./assets/images/shop-img-32-800x650.jpg" class="card-img-top" alt="Sandwich">
+                        <div class="card-body">
+                            <h5 class="sweets-card-title">Sandwich</h5>
+                            <p class="sweets-card-text">Chocobar, Cupcakes, Truffles</p>
+                            <p class="sweets-price">$6</p>
+                            <button class="add-to-cart text-white border-0" 
+                                data-id="2" 
+                                data-name="Sandwich" 
+                                data-price="6" 
+                                data-image="./assets/images/shop-img-32-800x650.jpg">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Item 3 -->
+                <div class="col">
+                    <div class="card sweets-card border-0">
+                        <img src="./assets/images/shop-img-33-800x650.jpg" class="card-img-top" alt="Croissant">
+                        <div class="card-body">
+                            <h5 class="sweets-card-title">Croissant</h5>
+                            <p class="sweets-card-text">Chocobar, Cupcakes, Truffles</p>
+                            <p class="sweets-price">$6</p>
+                            <button class="add-to-cart text-white border-0" 
+                                data-id="3" 
+                                data-name="Croissant" 
+                                data-price="6" 
+                                data-image="./assets/images/shop-img-33-800x650.jpg">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Item 4 -->
+                <div class="col">
+                    <div class="card sweets-card border-0">
+                        <img src="./assets/images/shop-img-34-3-800x650.jpg" class="card-img-top" alt="Acai Bowl">
+                        <div class="card-body">
+                            <h5 class="sweets-card-title">Acai Bowl</h5>
+                            <p class="sweets-card-text">Chocobar, Cupcakes, Truffles</p>
+                            <p class="sweets-price">$6</p>
+                            <button class="add-to-cart text-white border-0" 
+                                data-id="4" 
+                                data-name="Acai Bowl" 
+                                data-price="6" 
+                                data-image="/assets/images/shop-img-34-3-800x650.jpg">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Section3 -->
+    <div class="sec3">
+    <div class="center-div">
+        <img src="./assets/images/cropped-Favikon-192x192.png" alt="logo" class="sec3-img z-3 posi">
+        <img src="./assets/images/write logo.png" alt="logo" class="z-1">
+    </div>
+    </div>
+
+    <!-- section4 -->
+    <section class="sec4 mt-5 animate__animated  " id="Services">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-4 text-center">
+                <div class="col">
+                    <img src="./assets/images/p1-img-1.png" alt="choco rolls" class="mt-4 w-50 logo-serv">
+                    <span class="text-dark fs-4 fw-bold d-block p-3">choco rolls</span>
+                    <span class="fs-5 text-secondary pb-5 d-block tit">Lorem ipsum dolor sit amet, tale porro dign issim id per.</span>
+                </div>
+                <div class="col">
+                    <img src="./assets/images/p1-img-2.png" alt="rocher balls" class="mt-4 w-50 logo-serv">
+                    <span class="text-dark fs-4 fw-bold d-block p-3">rocher balls</span>
+                    <span class="fs-5 text-secondary pb-5 d-block tit">Lorem ipsum dolor sit amet, tale porro dign issim id per.</span>
+                </div>
+                <div class="col">
+                    <img src="./assets/images/p1-img-3.png" alt="vanilla cake" class="mt-4 w-50 logo-serv">
+                    <span class="text-dark fs-4 fw-bold d-block p-3">vanilla cake</span>
+                    <span class="fs-5 text-secondary pb-5 d-block tit">Lorem ipsum dolor sit amet, tale porro dign issim id per.</span>
+                </div>
+                <div class="col">
+                    <img src="./assets/images/p1-img-4.png" alt="almond cup" class="mt-4 w-50 logo-serv">
+                    <span class="text-dark fs-4 fw-bold d-block p-3">almond cup</span>
+                    <span class="fs-5 text-secondary pb-5 d-block tit">Lorem ipsum dolor sit amet, tale porro dign issim id per.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section5 -->
+    <section class="sec5 m-5 animate__animated  animate__fadeInTopLeft" id="Truffle">
+        <div class="text-center">
+            <span class="story-subtitle">Family Tradition</span>
+            <h1 class="story-title">Truffle is art</h1>
+            <hr class="story-divider">
+        </div>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-4">
+                <!-- Item 1 -->
+                <div class="col">
+                    <div class="card sweets-card border-0">
+                        <img src="./assets/images/shop-img-10-3-800x650.jpg" class="card-img-top" alt="Fruit Cannoli">
+                        <div class="card-body">
+                            <h5 class="sweets-card-title">Fruit Cannoli</h5>
+                            <p class="sweets-card-text">Chocobar, Cupcakes, Truffles</p>
+                            <p class="sweets-price">$6</p>
+                            <button class="add-to-cart text-white border-0" 
+                                data-id="5" 
+                                data-name="Fruit Cannoli" 
+                                data-price="6" 
+                                data-image="./assets/images/shop-img-10-3-800x650.jpg">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Item 2 -->
+                <div class="col">
+                    <div class="card sweets-card border-0">
+                        <img src="./assets/images/shop-img-11-2-800x650.jpg" class="card-img-top" alt="Sandwich">
+                        <div class="card-body">
+                            <h5 class="sweets-card-title">Sandwich</h5>
+                            <p class="sweets-card-text">Chocobar, Cupcakes, Truffles</p>
+                            <p class="sweets-price">$6</p>
+                            <button class="add-to-cart text-white border-0" 
+                                data-id="6" 
+                                data-name="Sandwich" 
+                                data-price="6" 
+                                data-image="./assets/images/shop-img-11-2-800x650.jpg">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Item 3 -->
+                <div class="col">
+                    <div class="card sweets-card border-0">
+                        <img src="./assets/images/shop-img-12-2-800x650.jpg" class="card-img-top" alt="Croissant">
+                        <div class="card-body">
+                            <h5 class="sweets-card-title">Croissant</h5>
+                            <p class="sweets-card-text">Chocobar, Cupcakes, Truffles</p>
+                            <p class="sweets-price">$12</p>
+                            <button class="add-to-cart text-white border-0" 
+                                data-id="7" 
+                                data-name="Croissant" 
+                                data-price="6" 
+                                data-image="./assets/images/shop-img-12-2-800x650.jpg">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Item 4 -->
+                <div class="col">
+                    <div class="card sweets-card border-0">
+                        <img src="./assets/images/shop-img-9-3-800x650.jpg" class="card-img-top" alt="Acai Bowl">
+                        <div class="card-body">
+                            <h5 class="sweets-card-title">Acai Bowl</h5>
+                            <p class="sweets-card-text">Chocobar, Cupcakes, Truffles</p>
+                            <p class="sweets-price">$6</p>
+                            <button class="add-to-cart text-white border-0" 
+                                data-id="8" 
+                                data-name="Acai Bowl" 
+                                data-price="6" 
+                                data-image="./assets/images/shop-img-9-3-800x650.jpg">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="col">
+                    <div class="card sweets-card border-0">
+                        <img src="./assets/images/shop-img-9-3-800x650.jpg" class="card-img-top" alt="Acai Bowl">
+                        <div class="card-body">
+                            <h5 class="sweets-card-title">Acai Bowl</h5>
+                            <p class="sweets-card-text">Chocobar, Cupcakes, Truffles</p>
+                            <p class="sweets-price">$6</p>
+                            <button class="add-to-cart text-white border-0" 
+                                data-id="9" 
+                                data-name="Acai Bowl" 
+                                data-price="6" 
+                                data-image="./assets/images/shop-img-9-3-800x650.jpg">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- item 6 -->
+                <div class="col">
+                    <div class="card sweets-card border-0">
+                        <img src="./assets/images/shop-img-12-2-800x650.jpg" class="card-img-top" alt="Acai Bowl">
+                        <div class="card-body">
+                            <h5 class="sweets-card-title">Acai Bowl</h5>
+                            <p class="sweets-card-text">Chocobar, Cupcakes, Truffles</p>
+                            <p class="sweets-price">$6</p>
+                            <button class="add-to-cart text-white border-0" 
+                                data-id="10" 
+                                data-name="Acai Bowl" 
+                                data-price="6" 
+                                data-image="./assets/images/shop-img-12-2-800x650.jpg">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 7 -->
+                <div class="col">
+                    <div class="card sweets-card border-0">
+                        <img src="./assets/images/shop-img-10-3-800x650.jpg" class="card-img-top" alt="Acai Bowl">
+                        <div class="card-body">
+                            <h5 class="sweets-card-title">Acai Bowl</h5>
+                            <p class="sweets-card-text">Chocobar, Cupcakes, Truffles</p>
+                            <p class="sweets-price">$6</p>
+                            <button class="add-to-cart text-white border-0" 
+                                data-id="11" 
+                                data-name="Acai Bowl" 
+                                data-price="6" 
+                                data-image="./assets/images/shop-img-10-3-800x650.jpg">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 8 -->
+                <div class="col">
+                    <div class="card sweets-card border-0">
+                        <img src="./assets/images/shop-img-11-2-800x650.jpg" class="card-img-top" alt="Acai Bowl">
+                        <div class="card-body">
+                            <h5 class="sweets-card-title">Acai Bowl</h5>
+                            <p class="sweets-card-text">Chocobar, Cupcakes, Truffles</p>
+                            <p class="sweets-price">$6</p>
+                            <button class="add-to-cart text-white border-0" 
+                                data-id="12" 
+                                data-name="Acai Bowl" 
+                                data-price="6" 
+                                data-image="./assets/images/shop-img-11-2-800x650.jpg">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-5 animate__animated animate__fadeInUpBig" id="Contact">
+        <div class="container">
+            <div class="row">
+                <!-- قسم معلومات الاتصال -->
+                <div class="col-md-4">
+                    <h4 class="text-uppercase fw-bold">Contact</h4>
+                    <ul class="list-unstyled mt-5">
+                        <li class="mb-2">
+                            <i class="bi bi-geo-alt"></i> Heinrichstrasse 267c / 3. Stock 8005 Zürich
+                        </li>
+                        <li class="mb-2">
+                            <i class="bi bi-envelope"></i>
+                            <a href="mailto:yousef227d@gmail.com" class="text-decoration-none text-white">yousef227d@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-telephone"></i>
+                            <a href="tel:+201234567890" class="text-decoration-none text-white">+20 123 456 7890</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <!-- logo and title-->
+                <div class="col-md-4 text-center">
+                    <img src="./assets/images/footer logo.png" alt="Logo" class="mb-3">
+                    <span class="story-subtitle">eat what you love</span>
+                    <h3 class="fw-bold text-uppercase">Dolcino Pastries</h3>
+                    <hr class="story-divider my-2 mx-auto" style="width: 50px; border: 1px solid gold;">
+                    <p class="text-secondary fst-italic">1926. - Year of beginning. There are many<br> 
+                        variations of passages of Lorem Ipsum available,<br> 
+                        but the majority suffered alter.</p>
+                </div>
+    
+                <!--Map image-->
+                <div class="col-md-4 text-end">
+                    <img src="./assets/images/footer-img.png" alt="Map" class="img-fluid">
+                </div>
+            </div>
+            <hr>
+    
+            <!-- Copyright-->
+            <div class="text-center text-secondary mt-4">
+                © 2025 Made by Youssef, All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    
+    
+
+
+
+
+    <script src="add-to-cart.js"></script>
+    <!-- Scripts -->
+    <!-- main bootstrap -->
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- main JS -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
+
+addbtn text-white border-0

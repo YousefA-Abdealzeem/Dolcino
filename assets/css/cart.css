@@ -1,0 +1,177 @@
+
+header{
+    background-image: url(../images/pexels-shvetsa-5964505.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    background-attachment: fixed;
+}
+
+.cart{
+    font-size: 80px !important;
+    letter-spacing: 10px !important;
+    display: flex;
+    align-items: center;
+    height: 45vh;
+    color: white;
+}
+
+.list .ul{
+    gap: 200px !important;
+    list-style: none;
+    border-bottom: 0.5px solid;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.list .ul .ul-item{
+    padding-top: 20px !important;
+}
+.type-item{
+    cursor: pointer;
+}
+
+.bottom-nav{
+    height: 120px;
+}
+
+.logo-img{
+    width: 60px !important;
+    padding-left: 20px;
+}
+
+.story-subtitle{
+    font-family: "Meow Script", cursive;
+    font-size: 40px !important;
+    color: #C19D55;
+}
+
+/* main */
+main{
+    height: 100%;
+}
+
+.cart-total{
+    text-transform: uppercase;
+    font-weight: 250px;
+    letter-spacing: 4px;
+    padding-bottom: 40px;
+}
+.details{
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+
+.quantity-input {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    border: 1px solid #d6a55a !important;
+}
+
+
+
+.quantity-input button {
+    color: #d4aa6d;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+}
+
+
+.checkout{
+    width: 300px;
+    height: 50px;
+    background-color: #C19D55;
+    border: solid 2px;
+    border-color: #C19D55;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all ease 0.5s;
+}
+.checkout:hover{
+    color: #C19D55;
+    background-color: white;
+}
+
+/* Footer */
+#Contact{
+    margin-top: 150px;
+}
+
+
+
+
+/* media */
+@media (max-width: 575px){
+    .logo-img{
+        width: 50px;
+        padding-left: 20px;
+    }
+    .mkdf-cart-icon{
+        display: none !important;
+    }
+    header {
+        height: 200px;
+        background-image: url(../images/pexels-shvetsa-5964505.jpg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cart{
+        width: 100%;
+        color: white;
+        padding-left: 15px;
+        font-size: 30px !important;
+        height: 22vh;
+    }
+    .ul{
+        display: none !important;
+    }
+    .total{
+        display:  flex !important;
+        padding-top: 10px;
+        border-bottom: 0.5px solid;
+        width: 100%;
+        justify-content: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .img-item{
+        display: none !important;
+    }
+    .cart-total{
+        width: 100%;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .checkout ,.back-more{
+        margin: auto;
+    }
+    .back-more{
+        width: 320px;
+    }
+
+}
+
+
+
+/* btn in js */
+.return-to-shop{
+    width: 300px;
+    height: 50px;
+    background-color: #C19D55;
+    border: solid 2px !important;
+    border-color: #C19D55;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all ease 0.5s;
+
+}
+.return-to-shop:hover{
+    color: #C19D55;
+    background-color: white;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Animation CSS -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/cart.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Meow+Script&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- Logo of website -->
+    <link rel="shortcut icon" type="image" href="./assets/images/cropped-Favikon-32x32.png">
+    <!-- Tltle Page -->
+    <title>Cart-Dolcino</title>
+</head>
+<body>
+
+    <!-- Start Bottom Navbar -->
+    <nav class="navbar bottom-nav bg-body-tertiary sticky-top">
+        <div class="container d-flex justify-content-between align-items-center">
+            <img src="./assets/images/logo-img-mobile-.png" alt="logo" class="logo-img">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end " id="offcanvasNavbar">
+                <div class="offcanvas-header d-flex flex-column align-items-center">
+                    <button type="button" class="btn-close fs-3 pb-5 pe-3" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body d-flex flex-column align-items-center text-center">
+                    <img src="./assets/images/footer logo.png" alt="">
+                    <img src="./assets/images/cropped-Favikon-192x192.png" alt="" class="w-25">
+                    <span class="story-subtitle d-block">Masterpiece of</span>
+                    <h1 class="">TRES DOUX</h1>
+                    <p class="story-text">There are many variations of passages of<br> Lorem
+                        Ipsum available, but the majority.</p>
+                        <img src="./assets/images/p1-img-5.png" alt="Signature" class="story-signature img-fluid">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Bottom Navbar -->
+    <!-- header -->
+    <header>
+        <div class="container animate__animated animate__fadeInLeft">
+            <h1 class=" cart">CART</h1>
+        </div>
+    </header>
+    <div class="container list d-flex justify-content-center align-items-center ">
+        <ul class="d-flex fs-4 ul d-flex justify-content-center pb-4">
+            <li class="ul-item">Product</li>
+            <li class="ul-item">Price</li>
+            <li class="ul-item">Quantity</li>
+            <li class="ul-item">Subtotal</li>
+        </ul>
+        <span class=" total d-none fs-3 text-dark p-5">Product	Price Quantity Subtotal</span>
+    </div>
+    <!-- End Header -->
+    <!-- Main -->
+
+    <main>
+    <div class="container">
+    </div>
+    <div class="container mt-5">
+        <div class="row d-flex">
+            <div class="col-12 pt-5 d-flex flex-column">
+                <h1 class="cart-total">Complete your purchase</h1>
+            </div>
+                <hr>
+            <div class="d-flex gap-5">
+                <button class="checkout mt-3">Proceed to checkout</button>
+                <button class="checkout back-more mt-3">Back to more shopping</button>
+            </div>
+        </div>
+    </div>
+</main>
+<!-- End Main -->
+
+    <!-- Footer -->
+        <footer class="bg-black text-white py-5 animate__animated animate__fadeInUpBig" id="Contact">
+            <div class="container">
+                <div class="row">
+                    <!-- قسم معلومات الاتصال -->
+                    <div class="col-md-4">
+                        <h4 class="text-uppercase fw-bold">Contact</h4>
+                        <ul class="list-unstyled mt-5">
+                            <li class="mb-2">
+                                <i class="bi bi-geo-alt"></i> Heinrichstrasse 267c / 3. Stock 8005 Zürich
+                            </li>
+                            <li class="mb-2">
+                                <i class="bi bi-envelope"></i>
+                                <a href="mailto:yousef227d@gmail.com" class="text-decoration-none text-white">yousef227d@gmail.com</a>
+                            </li>
+                            <li>
+                                <i class="bi bi-telephone"></i>
+                                <a href="tel:+201234567890" class="text-decoration-none text-white">+20 123 456 7890</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <!-- logo and title-->
+                    <div class="col-md-4 text-center">
+                        <img src="./assets/images/footer logo.png" alt="Logo" class="mb-3">
+                        <span class="story-subtitle">eat what you love</span>
+                        <h3 class="fw-bold text-uppercase">Dolcino Pastries</h3>
+                        <hr class="story-divider my-2 mx-auto" style="width: 50px; border: 1px solid gold;">
+                        <p class="text-secondary fst-italic">1926. - Year of beginning. There are many<br> 
+                            variations of passages of Lorem Ipsum available,<br> 
+                            but the majority suffered alter.</p>
+                    </div>
+        
+                    <!--Map image-->
+                    <div class="col-md-4 text-end">
+                        <img src="./assets/images/footer-img.png" alt="Map" class="img-fluid">
+                    </div>
+                </div>
+                <hr>
+        
+                <!-- Copyright-->
+                <div class="text-center text-secondary mt-4">
+                    © 2025 Made by Youssef, All Rights Reserved
+                </div>
+            </div>
+        </footer>
+
+
+
+
+    <!-- Scripts -->
+    <!-- main bootstrap -->
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- main JS -->
+    <script src="./assets/js/cart.js"></script>
+</body>
+</html>

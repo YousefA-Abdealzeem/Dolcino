@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Animation CSS -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/chick.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Meow+Script&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- Logo of website -->
+    <link rel="shortcut icon" type="image" href="./assets/images/cropped-Favikon-32x32.png">
+    <!-- Tltle Page -->
+    <title>Chick-out-Dolcino</title>
+</head>
+<body>
+    <!-- Start Bottom Navbar -->
+    <nav class="navbar bottom-nav bg-body-tertiary sticky-top">
+    <div class="container d-flex justify-content-between align-items-center">
+        <img src="./assets/images/logo-img-mobile-.png" alt="logo" class="logo-img">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end " id="offcanvasNavbar">
+            <div class="offcanvas-header d-flex flex-column align-items-center">
+                <button type="button" class="btn-close fs-3 pb-5 pe-3" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body d-flex flex-column align-items-center text-center">
+                <img src="./assets/images/footer logo.png" alt="">
+                <img src="./assets/images/cropped-Favikon-192x192.png" alt="" class="w-25">
+                <span class="story-subtitle d-block">Masterpiece of</span>
+                <h1 class="">TRES DOUX</h1>
+                <p class="story-text">There are many variations of passages of<br> Lorem
+                    Ipsum available, but the majority.</p>
+                    <img src="./assets/images/p1-img-5.png" alt="Signature" class="story-signature img-fluid">
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- End Bottom Navbar -->
+    <!-- header -->
+    <header>
+        <div class="container animate__animated animate__fadeInLeft">
+            <h1 class=" cart">CHECKOUT</h1>
+        </div>
+    </header>
+    <div class="container mb-5">
+        <div class="row ">
+            <div class="col-12 chick-out d-flex align-items-center">
+                <span class="fs-5">Have a coupon ?</span>
+                <span class="fs-5">Click here to enter your code</span>
+            </div>
+            <div class="col-9  d-flex justify-content-between mt-5 ps-5">
+                <span class="fs-3 title-chick text-uppercase">Billing details</span>
+                <span class="fs-3 title-p text-uppercase">Additional information</span>
+            </div>
+            <!-- Details Form -->
+            <form class="row g-3 form-details">
+                <div class="col-6 form-info">
+                    <!-- Frist and Last Name -->
+                    <div class="row pb-4">
+                        <div class="col-md-6">
+                            <label for="inputFirstName" class="form-label">First Name *</label>
+                            <input type="text" class="form-control" id="inputFirstName">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputLastName" class="form-label">Last Name *</label>
+                            <input type="text" class="form-control" id="inputLastName">
+                        </div>
+                    </div>
+                <!-- Company Name -->
+                <div class="row gap-4">
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Company name (optional)</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <!-- Country -->
+                <div class="col-md-12">
+                    <label for="inputCountry" class="form-label">Country / Region *</label>
+                    <select id="inputCountry" class="form-select">
+                        <option selected>Select a country...</option>
+                        <option value="Egypt">Egypt</option>
+                        <option value="Saudi Arabia">Saudi Arabia</option>
+                        <option value="UAE">UAE</option>
+                        <option value="USA">USA</option>
+                    </select>
+                    <div class="invalid-feedback">Please select a country.</div>
+                </div>
+                <!-- Address -->
+                <div class="col-lg-12">
+                    <label for="inputAddress2" class="form-label">Street address *</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <!--State and country -->
+                <div class="col-md-12">
+                    <label for="inputCity" class="form-label">City *</label>
+                    <select id="inputCity" class="form-select">
+                        <option selected>Choose a city...</option>
+                    </select>
+                <div class="invalid-feedback">Please select a city.</div>
+                </div>
+                <!-- ZIP code -->
+                <div class="col-lg-12">
+                    <label for="inputCity" class="form-label">Postcode / ZIP *</label>
+                    <input type="number" class="form-control" id="inputZip">
+                </div>
+                <!-- Phone -->
+                <div class="col-md-12">
+                    <label for="inputZip" class="form-label">Phone *</label>
+                    <input type="number" class="form-control" id="inputPhone">
+                </div>
+                <!-- Email -->
+                <div class="col-md-12">
+                    <label for="inputZip" class="form-label">Email *</label>
+                    <input type="text" class="form-control" id="inputEmail">
+                </div>
+            </div>
+        </div>
+            <!-- Example Textarea -->
+            <div class="col-md-6 form-area">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control pt-3" id="exampleFormControlTextarea1" rows="4">Note about your order ...</textarea>
+            </div>
+            </form>
+        </div>
+        <div class="row mt-5 gap-5">
+        <span class="fs-1 your-order text-uppercase fw-bold">Your order</span>
+        <div class="col-12">
+            <span class="final-order d-flex justify-content-center align-items-center">Your personal data will be used to process your order,
+            support your experience throughout this website,
+            and for other purposes described in our privacy policy.</span>
+        </div>
+        <div class="col-6">
+            <button class="mb-5 final-btn">Place order</button>
+        </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-black text-white py-5 animate__animated animate__fadeInUpBig" id="Contact">
+        <div class="container">
+            <div class="row">
+                <!-- قسم معلومات الاتصال -->
+                <div class="col-md-4 cotact-div text-center">
+                    <h4 class="text-uppercase fw-bold">Contact</h4>
+                    <ul class="list-unstyled mt-5">
+                        <li class="mb-2">
+                            <i class="bi bi-geo-alt"></i> Heinrichstrasse 267c / 3. Stock 8005 Zürich
+                        </li>
+                        <li class="mb-2">
+                            <i class="bi bi-envelope"></i>
+                            <a href="mailto:yousef227d@gmail.com" class="text-decoration-none text-white">yousef227d@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="bi bi-telephone"></i>
+                            <a href="tel:+201234567890" class="text-decoration-none text-white">+20 123 456 7890</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <!-- logo and title-->
+                <div class="col-md-4 text-center">
+                    <img src="./assets/images/footer logo.png" alt="Logo" class="mb-3">
+                    <span class="story-subtitle">eat what you love</span>
+                    <h3 class="fw-bold text-uppercase">Dolcino Pastries</h3>
+                    <hr class="story-divider my-2 mx-auto" style="width: 50px; border: 1px solid gold;">
+                    <p class="text-secondary fst-italic">1926. - Year of beginning. There are many<br> 
+                        variations of passages of Lorem Ipsum available,<br> 
+                        but the majority suffered alter.</p>
+                </div>
+    
+                <!--Map image-->
+                <div class="col-md-4 text-end">
+                    <img src="./assets/images/footer-img.png" alt="Map" class="img-fluid">
+                </div>
+            </div>
+            <hr>
+    
+            <!-- Copyright-->
+            <div class="text-center text-secondary mt-4">
+                © 2025 Made by Youssef, All Rights Reserved
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Scripts -->
+    <!-- main bootstrap -->
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- main JS -->
+    <script src="./assets/js/chick.js"></script>
+</body>
+</html>

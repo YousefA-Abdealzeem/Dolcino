@@ -1,0 +1,157 @@
+.bottom-nav{
+    height: 120px;
+}
+
+.story-subtitle{
+    font-family: "Meow Script", cursive;
+    font-size: 40px !important;
+    color: #C19D55;
+}
+
+.story-text{
+    font-family: "Meow Script", cursive;
+    font-size: 25px;
+}
+
+.offcanvas{
+    width: 550px !important;
+}
+
+.logo-img{
+    width: 60px !important;
+    padding-left: 20px !important;
+}
+
+header{
+    background-image: url(../images/pexels-shvetsa-5964505.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    background-attachment: fixed;
+}
+
+.cart{
+    font-size: 80px !important;
+    letter-spacing: 10px !important;
+    display: flex;
+    align-items: center;
+    height: 45vh;
+    color: white;
+}
+
+.chick-out{
+    border: solid black 0.5px;
+    height: 8vh;
+    margin-top: 150px;
+    font-family:cursive;
+    gap: 500px;
+}
+
+.form-details{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.final-order{
+    border: solid black 0.5px;
+    height: 8vh;
+    font-family: cursive;
+}
+
+.final-btn{
+    width: 300px;
+    height: 50px;
+    background-color: #C19D55;
+    border: solid 2px;
+    border-color: #C19D55;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all ease 0.5s;
+}
+.final-btn:hover{
+    color: #C19D55;
+    background-color: white;
+}
+
+
+@media (max-width: 575px){
+    .sticky-top{
+        height: 70% !important;
+    }
+    .logo-img{
+        width: 50px !important;
+        padding-left: 20px;
+    }
+    header {
+        height: 200px;
+        background-image:  url(../images/pexels-shvetsa-5964505.jpg); /* تأكد أن الصورة نفسها مستخدمة */
+        background-position:  center; /* ضبط المحاذاة مثل الصورة اليمنى */
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cart{
+        width: 100%;
+        color: white;
+        padding-left: 15px;
+        font-size: 30px !important;
+        height: 22vh;
+    }
+    .offcanvas{
+        width: 80% !important;
+    }
+
+    .form-details .col-6{
+        width: 100%;
+    }
+
+    .chick-out{
+        width: 90%;
+        font-size: 10px !important;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        margin: 50px auto;
+    }
+
+    .title-chick {
+        width: 100%;
+        padding-left: 110px !important;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .title-p {
+        position: absolute;
+        margin-top: 910px;
+        padding-left: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    .form-info , .form-area{
+        padding-bottom: 100px;
+        padding-left: 20px;
+    }
+
+    .final-order{
+        border: solid black 0.5px;
+        height: 15vh !important;
+        font-family: cursive;
+        padding: 0 10px ;
+        text-align: center;
+    }
+
+    .your-order{
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .final-btn{
+        margin-left: 90px !important;
+    }
+}
